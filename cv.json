@@ -1,35 +1,41 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
-    "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
-    "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
+    "name": "Chippalrus",
+    "label": "Zero discipline, all-purpose flour",
+    "image": "/baselog_o_.png",
+    "url": "https://chippalrus.dev",
+    "summary": "Self-taught hobbist coder that dabbles in web & game development. Currently building shaders & packages for usage in Unity game engine.",
     "theme": "default",
     "location": {
-      "address": "",
-      "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "city": "?",
+      "countryCode": "CA",
+      "region": "Canada"
     },
     "profiles": [
       {
-        "network": "LinkedIn",
-        "username": "john-doe",
-        "url": "https://linkedin.com/in/john-doe"
+        "network": "Mail",
+        "username": "contact@chippalrus.dev",
+        "url": "mailto:contact@chippalrus.dev"
       },
       {
-        "network": "X",
-        "username": "john-doe",
-        "url": "https://x.com/john-doe"
+        "network": "Link",
+        "username": "chippalrus.dev",
+        "url": "https://chippalrus.dev"
+      },
+      {
+        "network": "Bluesky",
+        "username": "@chippalrus.dev",
+        "url": "https://bsky.app/profile/chippalrus.dev"
+      },
+      {
+        "network": "Twitter",
+        "username": "chippalrus_dev",
+        "url": "https://twitter.com/chippalrus_dev"
       },
       {
         "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "username": "Chippalrus",
+        "url": "https://github.com/chippalrus"
       }
     ]
   },
