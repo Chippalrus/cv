@@ -7,9 +7,9 @@
     "summary": "Self-taught hobbist coder that dabbles in web & game development. Currently building shaders & packages for usage in Unity game engine.",
     "theme": "dev",
     "location": {
-      "city": "?",
+      "city": "West Coast",
       "countryCode": "CA",
-      "region": "Canada"
+      "region": "Earth"
     },
     "profiles": [
       {
@@ -57,8 +57,8 @@
         "Provide customer support and troubleshooting for assets."
       ],
       "skills": [
-        "C#",
-        "Unity Game Engine",
+        "CSharp",
+        "Unity",
         "GitHub"
       ]
     }
@@ -80,7 +80,7 @@
   ],
   "skills": [
     {
-      "name": "C/C++",
+      "name": "Cpp",
       "level": "Intermediate",
       "keywords": [
         "Game Development",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "name": "C#",
+      "name": "CSharp",
       "level": "Intermediate",
       "keywords": [
         "Game Development",
@@ -123,15 +123,6 @@
       ]
     },
     {
-      "name": "Git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
-    {
       "name": "GitHub",
       "level": "Intermediate",
       "keywords": [
@@ -139,6 +130,13 @@
         "Collaboration",
         "Source Code",
         "Git"
+      ]
+    },
+    {
+      "name": "Unity",
+      "level": "Intermediate",
+      "keywords": [
+        "Game Development"
       ]
     }
   ],
@@ -153,8 +151,7 @@
       "name": "Technology",
       "keywords": [
         "Game Development",
-        "Visual Effects",
-        "VTubers"
+        "Visual Effects"
       ]
     }
   ],
@@ -166,13 +163,34 @@
   ],
   "projects": [
     {
-      "name": "",
-      "isActive": false,
-      "description": "",
+      "name": "HoloDissolveFX",
+      "isActive": true,
+      "description": "A procedural hologram & dissolve shaders for Unity and entirely in Shader Graph.",
       "highlights": [
+        "Procdual patterns",
+        "Customisable settings"
       ],
-      "url": "",
-      "github":""
+      "url": "https://assetstore.unity.com/packages/vfx/shaders/holodissolvefx-holograms-dissolve-urp-251841"
+    },
+    {
+      "name": "Minimal LipSync",
+      "isActive": true,
+      "description": "Speech based LipSync implementation for Unity.",
+      "highlights": [
+        "Uses 4 blend shapes",
+        "For 2D and 3D models"
+      ],
+      "url": "https://assetstore.unity.com/packages/tools/animation/minimal-lipsync-redux-207112"
+    },
+    {
+      "name": "Playlist P",
+      "isActive": true,
+      "description": "A very basic playlist player with basic functionalities. Plays sound files from a directory or a basic playlist file.",
+      "highlights": [
+        "Basic M3U Playlist support",
+        "Supports streaming from Google Drive API"
+      ],
+      "url": "https://assetstore.unity.com/packages/tools/audio/playlist-p-192284"
     }
   ]
 }
