@@ -65,15 +65,15 @@
   ],
   "education": [
     {
-      "institution": "",
+      "institution": "Art Institute",
       "url": "",
       "area": "",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "",
+      "studyType": "Diploma",
+      "startDate": "2006-03-01",
+      "endDate": "2008-06-01",
       "score": "",
       "courses": [
-        ""
+        "Visual and Game Programming"
       ]
     }
   ],
