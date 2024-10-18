@@ -10,6 +10,17 @@
     --color-button-accent: 249, 115, 22;
     --color-button-accent-hover: 55, 55, 55;
     --color-button-muted: 244, 239, 238;
+    [data-theme="dev"] {
+      --color-text-base: 15, 23, 42;
+      --color-text-muted: 100, 116, 139;
+      --color-text-inverted: 240, 240, 240;
+      --color-fill: 215, 223, 231;
+      --muted: 148, 163, 184;
+      --color: 36, 73, 116;
+      --color-button-accent: 36, 73, 116;
+      --color-button-accent-hover: 0, 185, 255;
+      --color-button-muted: 226, 232, 240;
+    }
     [data-theme="blue"] {
       --color-text-base: 15, 23, 42;
       --color-text-muted: 100, 116, 139;
