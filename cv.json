@@ -51,6 +51,9 @@
         "Provide ease of setup for each asset package.",
         "Provide customer support and troubleshooting for assets."
       ],
+      "achievements": [
+        " "
+      ],
       "skills": [
         "CSharp",
         "Unity",
@@ -61,6 +64,7 @@
   "education": [
     {
       "institution": "Art Institute",
+      "url": "#",
       "area": "Visual and Game Programming",
       "studyType": "Diploma",
       "startDate": "12006-03-01",
