@@ -8,9 +8,6 @@
       ],
       "@/*": [
         "src/*"
-      ],
-      "@themes/*":[
-        "public/themes/*"
       ]
     }
   }
