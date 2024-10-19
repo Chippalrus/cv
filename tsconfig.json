@@ -2,7 +2,6 @@
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "baseUrl": ".",
-    "base":"./",
     "paths": {
       "@cv": [
         "./cv.json"
