@@ -31,12 +31,12 @@ import { projects } from "@cv";
 									)}
 								</div>
 							</div>
-
-							{github && (
+							{(github != "") ? 
+							(github && (
 								<a href={github} title="View slug repository on GitHub" target="_blank" rel="noopener" class="opacity-75 transition-opacity duration-100 hover:opacity-100">
 									<Git />
 								</a>
-							)}
+							))}
 
 							
 						</div>
