@@ -54,7 +54,7 @@
         "Provide customer support and troubleshooting for assets."
       ],
       "achievements": [
-        " "
+        "-"
       ],
       "skills": [
         "CSharp",
@@ -158,8 +158,8 @@
   ],
   "references": [
     {
-      "name": "",
-      "reference": ""
+      "name": "-",
+      "reference": "-"
     }
   ],
   "projects": [
@@ -172,7 +172,7 @@
         "Customisable settings"
       ],
       "url": "https://assetstore.unity.com/packages/vfx/shaders/holodissolvefx-holograms-dissolve-urp-251841",
-      "github": ""
+      "github": "#"
     },
     {
       "name": "Minimal LipSync",
@@ -183,7 +183,7 @@
         "For 2D and 3D models"
       ],
       "url": "https://assetstore.unity.com/packages/tools/animation/minimal-lipsync-redux-207112",
-      "github": ""
+      "github": "#"
     },
     {
       "name": "Playlist P",
@@ -194,7 +194,7 @@
         "Supports streaming from Google Drive API"
       ],
       "url": "https://assetstore.unity.com/packages/tools/audio/playlist-p-192284",
-      "github": ""
+      "github": "#"
     }
   ]
 }
