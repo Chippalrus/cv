@@ -6,7 +6,7 @@
     "email": "contact@chippalrus.dev",
     "phone": "0",
     "url": "https://chippalrus.dev",
-    "summary": "Self-taught hobbist coder that dabbles in web & game development. Currently building shaders & packages for usage in Unity game engine.",
+    "summary": "Self-taught hobbist coder that dabbles in web & game development. Currently building shaders & assets for usage in Unity game engine.",
     "theme": "dev",
     "location": {
       "city": "West Coast",
@@ -69,8 +69,8 @@
       "url": "#",
       "area": "Visual and Game Programming",
       "studyType": "Diploma",
-      "startDate": "12006-03-01",
-      "endDate": "12008-06-01",
+      "startDate": "????",
+      "endDate": "????",
       "courses": [
         "Visual and Game Programming"
       ]
