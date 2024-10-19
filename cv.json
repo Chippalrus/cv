@@ -66,16 +66,19 @@
   ],
   "education": [
     {
-      "institution": "",
-      "url": "",
+      "institution": " ",
+      "url": "#",
       "area": "",
       "studyType": "",
       "startDate": "",
       "endDate": "",
       "courses": [
-        ""
+        " "
       ]
     }
+  ],
+  "certificates": [
+
   ],
   "skills": [
     {
@@ -152,6 +155,12 @@
         "Game Development",
         "Visual Effects"
       ]
+    }
+  ],
+  "references": [
+    {
+      "name": "-",
+      "reference": "-"
     }
   ],
   "projects": [
