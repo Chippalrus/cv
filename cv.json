@@ -181,8 +181,7 @@
         "Uses 4 blend shapes",
         "For 2D and 3D models"
       ],
-      "url": "https://assetstore.unity.com/packages/tools/animation/minimal-lipsync-redux-207112",
-      "github": "#"
+      "url": "https://assetstore.unity.com/packages/tools/animation/minimal-lipsync-redux-207112"
     },
     {
       "name": "Playlist P",
@@ -192,8 +191,7 @@
         "Basic M3U Playlist support",
         "Supports streaming from Google Drive API"
       ],
-      "url": "https://assetstore.unity.com/packages/tools/audio/playlist-p-192284",
-      "github": "#"
+      "url": "https://assetstore.unity.com/packages/tools/audio/playlist-p-192284"
     }
   ]
 }
