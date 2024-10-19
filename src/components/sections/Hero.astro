@@ -4,7 +4,6 @@ import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
 import X from "@/icons/X.astro";
-import Twitter from "@/icons/Twitter.astro";
 import Bluesky from "@/icons/Bluesky.astro";
 import Link from "@/icons/Link.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
@@ -16,13 +15,12 @@ const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
 
 const SOCIAL_ICONS: SocialIcon = {
+	Link,
+	Bluesky,
 	GitHub,
 	LinkedIn,
 	X,
-	Twitter,
-	Bluesky,
 	Mail,
-	Link
 };
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
@@ -68,11 +66,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 				}
 				
 				{
-					profiles.map(({ network, url }) => {
+					profiles.map(({ network, networkName, url }) => {
 						const Icon = SOCIAL_ICONS[network];
 
 						return (
-							<a href={url} title={`Visit ${name} profile on ${network}`} target="_blank" rel="noopener noreferrer">
+							<a href={url} title={`Visit ${name} profile on ${networkName}`} target="_blank" rel="noopener noreferrer">
 								<Icon />
 							</a>
 						);

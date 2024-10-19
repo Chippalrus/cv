@@ -1,16 +1,16 @@
 export interface CV {
   basics: Basics;
   work: Array<Work>;
-  volunteer: Array<Volunteer>;
-  education: Array<Education>;
-  awards: Array<Awards>;
-  certificates: Array<Certificates>;
-  publications: Array<Publications>;
-  skills: Array<Skills>;
-  languages: Array<Languages>;
-  interests: Array<Interests>;
-  references: Array<References>;
-  projects: Array<Projects>;
+  volunteer?: Array<Volunteer>;
+  education?: Array<Education>;
+  awards?: Array<Awards>;
+  certificates?: Array<Certificates>;
+  publications?: Array<Publications>;
+  skills?: Array<Skills>;
+  languages?: Array<Languages>;
+  interests?: Array<Interests>;
+  references?: Array<References>;
+  projects?: Array<Projects>;
 }
 
 interface Basics {
@@ -34,7 +34,8 @@ interface Location {
 }
 
 interface Profiles {
-  network: string;
+  network: SocNetwork;
+  networkName: string;
   username: string;
   url: string;
 }
@@ -42,11 +43,12 @@ interface Profiles {
 interface Work {
   name: string;
   position: string;
-  url: string;
+  url?: string;
   startDate: DateStr;
   endDate: DateStr | null;
-  summary: string;
-  highlights: Highlight;
+  summary?: string;
+  highlights?: Highlight;
+  achievements?: Achievements;
 }
 
 type DateStr = `${string}-${string}-${string}`;
@@ -57,8 +59,8 @@ interface Volunteer {
   url: string;
   startDate: DateStr;
   endDate: DateStr;
-  summary: string;
-  highlights: Highlight;
+  summary?: string;
+  highlights?: Highlight;
 }
 
 interface Skills {
@@ -76,9 +78,9 @@ interface Awards {
 
 interface Certificates {
   name: string;
-  date: DateStr;
-  issuer: string;
-  url: string;
+  date?: DateStr;
+  issuer?: string;
+  url?: string;
 }
 
 interface Publications {
@@ -91,13 +93,13 @@ interface Publications {
 
 interface Education {
   institution: string;
-  url: string;
-  area: string;
-  studyType: string;
-  startDate: DateStr;
-  endDate: DateStr;
-  score: string;
-  courses: Array<string>;
+  url?: string;
+  area?: string;
+  studyType?: string;
+  startDate?: DateStr;
+  endDate?: DateStr;
+  score?: string;
+  courses?: Array<string>;
 }
 
 interface Languages {
@@ -123,6 +125,13 @@ type Language =
   | "Bengali"
   | string;
 
+type SocNetwork = 
+  | "Bluesky"
+  | "Instagram"
+  | "Github"
+  | "Website"
+  | "X"
+  | string;
 interface Projects {
   name: string;
   isActive: boolean;
@@ -130,6 +139,7 @@ interface Projects {
   highlights: Highlight;
   url: string;
   github?: string;
+  unity?: string;
 }
 
 interface Interests {
@@ -143,3 +153,4 @@ interface References {
 }
 
 type Highlight = Array<String>;
+type Achievements = Array<String>;

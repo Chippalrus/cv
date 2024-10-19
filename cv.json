@@ -16,21 +16,25 @@
     "profiles": [
       {
         "network": "Link",
+        "networkName": "Website",
         "username": "chippalrus.dev",
         "url": "https://chippalrus.dev"
       },
       {
         "network": "Bluesky",
-        "username": "@chippalrus.dev",
+        "networkName": "Bluesky",
+        "username": "chippalrus.dev",
         "url": "https://bsky.app/profile/chippalrus.dev"
       },
       {
-        "network": "Twitter",
+        "network": "X",
+        "networkName": "Twitter",
         "username": "chippalrus_dev",
         "url": "https://twitter.com/chippalrus_dev"
       },
       {
         "network": "GitHub",
+        "networkName":"Github",
         "username": "Chippalrus",
         "url": "https://github.com/chippalrus"
       }
@@ -53,9 +57,6 @@
         "Provide ease of setup for each asset package.",
         "Provide customer support and troubleshooting for assets."
       ],
-      "achievements": [
-        ""
-      ],
       "skills": [
         "CSharp",
         "Unity",
@@ -65,19 +66,16 @@
   ],
   "education": [
     {
-      "institution": "Art Institute",
-      "url": "#",
-      "area": "Visual and Game Programming",
-      "studyType": "Diploma",
-      "startDate": "????",
-      "endDate": "????",
+      "institution": "",
+      "url": "",
+      "area": "",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "",
       "courses": [
-        "Visual and Game Programming"
+        ""
       ]
     }
-  ],
-  "certificates": [
-
   ],
   "skills": [
     {
@@ -154,12 +152,6 @@
         "Game Development",
         "Visual Effects"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "-",
-      "reference": "-"
     }
   ],
   "projects": [
