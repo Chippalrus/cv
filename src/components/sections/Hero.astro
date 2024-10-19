@@ -9,9 +9,10 @@ import Link from "@/icons/Link.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
+import QRStamp from "@/icons/QRStamp.astro";
 import type { SocialIcon } from "@/types";
 
-const { name, label, image, location, profiles, phone, email } = basics;
+const { name, label, image, location, profiles, email, url } = basics;
 const { city, region } = location;
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -26,7 +27,7 @@ const SOCIAL_ICONS: SocialIcon = {
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
 const linkedUrl = linkedInfo?.url;
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
+const printInfo = [email, url, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -84,8 +85,13 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 				</div>
 			</footer>
 		</div>
-		<figure class="print:hidden w-fit relative">
-			<img class="shadow-lg shadow-skin-hues" src={image} alt={name} />
+		<figure class="no-print print:hidden w-fit relative">
+			<div style={`
+			width:200px;
+			height:200px;
+			background-color:currentColor; 
+			-webkit-mask: url(${image}) no-repeat center;
+			-webkit-mask-size:200px 200px;`}></div>
 			<div class="pointer-events-none absolute -inset-2">
 				<div class="absolute -inset-y-8 right-0 w-px bg-skin-hue/50 [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
 				<div class="absolute -inset-y-8 left-0 w-px bg-skin-hue/50 [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
