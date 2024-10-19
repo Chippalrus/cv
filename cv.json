@@ -3,6 +3,8 @@
     "name": "Chippalrus",
     "label": "Zero discipline, all-purpose flour",
     "image": "/baselog_o_.png",
+    "email": "contact@chippalrus.dev",
+    "phone": "0",
     "url": "https://chippalrus.dev",
     "summary": "Self-taught hobbist coder that dabbles in web & game development. Currently building shaders & packages for usage in Unity game engine.",
     "theme": "dev",
@@ -169,7 +171,8 @@
         "Procdual patterns",
         "Customisable settings"
       ],
-      "url": "https://assetstore.unity.com/packages/vfx/shaders/holodissolvefx-holograms-dissolve-urp-251841"
+      "url": "https://assetstore.unity.com/packages/vfx/shaders/holodissolvefx-holograms-dissolve-urp-251841",
+      "github": ""
     },
     {
       "name": "Minimal LipSync",
@@ -179,7 +182,8 @@
         "Uses 4 blend shapes",
         "For 2D and 3D models"
       ],
-      "url": "https://assetstore.unity.com/packages/tools/animation/minimal-lipsync-redux-207112"
+      "url": "https://assetstore.unity.com/packages/tools/animation/minimal-lipsync-redux-207112",
+      "github": ""
     },
     {
       "name": "Playlist P",
@@ -189,7 +193,8 @@
         "Basic M3U Playlist support",
         "Supports streaming from Google Drive API"
       ],
-      "url": "https://assetstore.unity.com/packages/tools/audio/playlist-p-192284"
+      "url": "https://assetstore.unity.com/packages/tools/audio/playlist-p-192284",
+      "github": ""
     }
   ]
 }
