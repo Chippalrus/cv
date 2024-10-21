@@ -10,6 +10,7 @@ export interface CV {
   languages?: Array<Languages>;
   interests?: Array<Interests>;
   references?: Array<References>;
+  project_timeline?: Array<ProjectTimeline>;
   projects?: Array<Projects>;
 }
 
@@ -140,6 +141,16 @@ interface Projects {
   url: string;
   github?: string;
   unity?: string;
+}
+
+interface ProjectTimeline {
+  name: string;
+  type: string;
+  url: string;
+  releaseDate: DateStr;
+  endDate: DateStr | null;
+  description: string;
+  highlights?: Highlight;
 }
 
 interface Interests {

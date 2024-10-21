@@ -40,29 +40,59 @@
       }
     ]
   },
-  "work": [
+  "project_timeline": [
     {
-      "name": "Chippalrus",
-      "position": "Unity Asset Store Publisher",
-      "location_type": "Remote",
-      "location": "Home",
-      "url": "https://assetstore.unity.com/publishers/53124",
-      "startDate": "2021-04-14",
-      "endDate": null,
-      "summary": "Developing assets sold on the Unity Asset Store. Self-provided customer support and troubleshooting.",
+      "name": "HoloDissolveFX",
+      "location": "Asset Store",
+      "asset_type": "Shadergraph",
+      "platform": "URP",
+      "url": "https://assetstore.unity.com/packages/vfx/shaders/holodissolvefx-holograms-dissolve-urp-251841",
+      "releaseDate": "2023-08-11",
+      "lastUpdated": null,
+      "description": "A procedural hologram & dissolve shaders for Unity and entirely in Shader Graph.",
       "highlights": [
-        "Developed URP Shaders for use in Unity Game Engine."
+        "Procdual patterns",
+        "Customisable hologram",
+        "3 Different tiling dissolve patterns"
       ],
-      "responsibilities": [
-        "Provide ease of setup for each asset package.",
-        "Provide customer support and troubleshooting for assets."
+      "tags": [
+        "Unity"
+      ]
+    }
+    ,{
+      "name": "Minimal LipSync",
+      "location": "Asset Store",
+      "asset_type": "Audio/Animations",
+      "platform": "All",
+      "url": "https://assetstore.unity.com/packages/tools/animation/minimal-lipsync-redux-207112",
+      "releaseDate": "2022-01-19",
+      "lastUpdated": "2024-09-06",
+      "description": "Speech based LipSync implementation for Unity.",
+      "highlights": [
+        "Uses 4 blend shapes",
+        "For 2D and 3D models"
       ],
-      "achievements": [
+      "tags": [
+        "Unity"
+      ]
+    }
+    ,{
+      "name": "Playlist P",
+      "location": "Asset Store",
+      "asset_type": "Audio",
+      "platform": "All",
+      "url": "https://assetstore.unity.com/packages/tools/audio/playlist-p-192284",
+      "releaseDate": "2021-04-13",
+      "lastUpdated": null,
+      "description": "A very basic playlist player with basic functionalities. Plays sound files from a directory or a basic playlist file.",
+      "highlights": [
+        "Basic M3U Playlist support",
+        "Supports streaming from Google Drive API",
+        "Filename as track name display",
+        "Filters unsupported file types"
       ],
-      "skills": [
-        "CSharp",
-        "Unity",
-        "GitHub"
+      "tags": [
+        "Unity"
       ]
     }
   ],
