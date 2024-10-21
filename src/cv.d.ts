@@ -1,6 +1,6 @@
 export interface CV {
   basics: Basics;
-  work: Array<Work>;
+  work?: Array<Work>;
   volunteer?: Array<Volunteer>;
   education?: Array<Education>;
   awards?: Array<Awards>;
