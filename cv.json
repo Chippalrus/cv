@@ -15,24 +15,48 @@
     },
     "profiles": [
       {
-        "network": "Link",
-        "networkName": "Website",
-        "username": "chippalrus.dev",
-        "url": "https://chippalrus.dev"
-      },
-      {
         "network": "Bluesky",
         "networkName": "Bluesky",
         "username": "chippalrus.dev",
         "url": "https://bsky.app/profile/chippalrus.dev"
-      },
-      {
+      }
+      ,{
+        "network": "Instagram",
+        "networkName":"Instagram",
+        "username": "chippalrus.dev",
+        "url": "https://instagram.com/chippalrus.dev"
+      }
+      ,{
+        "network": "Youtube",
+        "networkName":"Youtube",
+        "username": "chippalrus.dev",
+        "url": "https://www.youtube.com/@chippalrus_dev"
+      }
+      ,{
         "network": "X",
         "networkName": "Twitter",
         "username": "chippalrus_dev",
         "url": "https://twitter.com/chippalrus_dev"
-      },
-      {
+      }
+      ,{
+        "network": "Unity",
+        "networkName": "Unity Asset Store",
+        "username": "chippalrus",
+        "url": "https://assetstore.unity.com/publishers/53124"
+      }
+      ,{
+        "network": "Itchio",
+        "networkName": "Itch.io",
+        "username": "chippalrus",
+        "url": "https://chippalrus.itch.io"
+      }
+      ,{
+        "network": "Kofi",
+        "networkName": "ko-fi",
+        "username": "chippalrus",
+        "url": "https://ko-fi.com/chippalrus"
+      }
+      ,{
         "network": "GitHub",
         "networkName":"Github",
         "username": "Chippalrus",
