@@ -46,7 +46,7 @@ const printInfo = [email, url, linkedUrl].filter(Boolean).join(" • ");
 			<h2>{label}</h2>
 			<div class="flex items-center gap-2 pt-2 text-sm text-skin-muted">
 				<!--WorldMap /-->
-				<a href={url}>{url}</a>
+				<a class="font-semibold" href={url}>{url.split('https://').join('').split('http://')}</a>
 				<!--{city}, {region}-->
 			</div>
 			<footer class="print">
@@ -98,7 +98,7 @@ const printInfo = [email, url, linkedUrl].filter(Boolean).join(" • ");
 			<div style={`
 			width:150px;
 			height:150px;
-			background-color:currentColor; 
+			background-color:var(--logo-color); 
 			-webkit-mask: url(${image}) no-repeat center;
 			-webkit-mask-size:150px 150px;`}></div>
 			<div class="pointer-events-none absolute -inset-2">
@@ -110,8 +110,21 @@ const printInfo = [email, url, linkedUrl].filter(Boolean).join(" • ");
 		</figure>
 	</div>
 </Section>
-<style>
-
+<style is:global>
+.light
+{
+	[data-theme="dev"]
+	{
+		--logo-color: #356bab;
+	}
+}
+.dark
+{
+	[data-theme="dev"]
+	{
+		--logo-color: white;
+	}
+}
 </style>
 <style>
 	.info {
