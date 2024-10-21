@@ -46,14 +46,14 @@ const SKILLS_ICONS: Record<string, any> = {
   <ul class="flex flex-col">
     {project_timeline.map(({ name, releaseDate, lastUpdated, location, description, highlights, url, tags, platform, asset_type }) => {
       const startYear = new Date(releaseDate).toISOString().split('T')[0]
-      const endYear = lastUpdated != null ? new Date(lastUpdated).toISOString().split('T')[0] : "Released"
+      const endYear = lastUpdated != null ? new Date(lastUpdated).toISOString().split('T')[0] : "-"
 
       return (
         <li class="relative print:py-2">
           <div class="group relative grid pb-1 print:pb-0 transition-all print:grid-cols-1 print:gap-1 sm:grid-cols-12 sm:gap-8 md:gap-6 lg:hover:!opacity-100 ">
             <header class="relative mt-1 text-xs font-semibold sm:col-span-2">
-              <time datetime={releaseDate} data-title={releaseDate}>{startYear}</time> /  
-              <time datetime={lastUpdated} data-title={lastUpdated}>{endYear}</time>
+              <div>R: <time datetime={releaseDate} data-title={releaseDate}>{startYear}</time></div>
+              <div>U: <time datetime={lastUpdated} data-title={lastUpdated}>{endYear}</time></div>
             </header>
             <div class="relative flex flex-col pb-6 print:pb-0 before:-ml-6 sm:col-span-10 before:w-px print:before:hidden before:absolute before:bg-skin-muted before:h-full before:mt-2">
             <div class="absolute w-2 h-2 bg-skin-muted rounded-full mt-2 -translate-x-[1.71rem] ring print:hidden ring-skin-fill"></div>
