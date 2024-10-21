@@ -42,13 +42,21 @@ const printInfo = [email, url, linkedUrl].filter(Boolean).join(" • ");
 <Section>
 	<div class="flex flex-col-reverse gap-8">
 		<div class="info">
-			<h1>{name}</h1>
+			<div class="align-middle no-print print:hidden relative" style={`
+				width:120px;
+				height:120px;
+				background-color:var(--logo-color); 
+				-webkit-mask: url(${image}) no-repeat center;
+				-webkit-mask-size:120px 120px;`}>
+			</div>
+			<h1 style="color: var(--logo-color)!important;">{name}</h1>
 			<h2>{label}</h2>
 			<div class="flex items-center gap-2 pt-2 text-sm text-skin-muted">
 				<!--WorldMap /-->
 				<a class="font-semibold" href={url}>{url.split('https://').join('').split('http://')}</a>
 				<!--{city}, {region}-->
 			</div>
+
 			<footer class="print">
 				{printInfo}
 			</footer>
@@ -94,7 +102,7 @@ const printInfo = [email, url, linkedUrl].filter(Boolean).join(" • ");
 				</div-->
 			</footer>
 		</div>
-		<figure class="no-print print:hidden w-fit relative">
+		<!--figure class="no-print print:hidden w-fit relative">
 			<div style={`
 			width:150px;
 			height:150px;
@@ -107,7 +115,7 @@ const printInfo = [email, url, linkedUrl].filter(Boolean).join(" • ");
 				<div class="absolute -inset-x-8 bottom-0 h-px bg-skin-hue/50 [mask-image:linear-gradient(to_left,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
 				<div class="absolute -inset-x-8 top-0 h-px bg-skin-hue/50 [mask-image:linear-gradient(to_left,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
 			</div>
-		</figure>
+		</figure-->
 	</div>
 </Section>
 <style is:global>
